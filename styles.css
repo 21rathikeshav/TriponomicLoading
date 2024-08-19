@@ -1,4 +1,5 @@
 body {
+    background-image: url('homeone.jpg');
     background-color: #f9f9f9;
     display: flex; /* add this line */
     justify-content: center; /* add this line */
@@ -6,12 +7,18 @@ body {
     height: 100vh; /* add this line */
     margin: 0; /* add this line */
   }
+  .container {
+    /* Add a transparent background to the container */
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Add some padding to the container */
+    padding: 20px;
+  }
   
   .launching-soon-container {
     font-family: 'True North', sans-serif;
     padding: 40px;
     text-align: center;
-    background-color: #1f2242; /* your brand's blue shade */
+    background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 100%; /* add this line */
@@ -27,17 +34,18 @@ body {
     margin: 10px;
     border-radius: 50%;
     padding: 10px;
+    margin-bottom: 30px;
   }
   
   .logo-container h1 {
     font-size: 50px;
-    color: #fff; /* white font color */
+    color: #1f2242; /* white font color */
     margin-top: 0;
   }
   
   h2 {
     font-size: 18px;
-    color: #fff; /* white font color */
+    color: #1f2242; /* white font color */
     margin-bottom: 20px;
   }
   
@@ -68,15 +76,15 @@ body {
 
 /* Add styles for the heading */
 .launching-soon-heading {
-    color: #fff; /* white font color */
-    font-size: 48px;
+    color: #1f2242; /* white font color */
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
 /* Add styles for the paragraph */
 .launching-soon-paragraph {
-    color: #fff; /* white font color */
+    color: #1f2242; /* white font color */
     font-size: 18px;
     margin-bottom: 40px;
 }
